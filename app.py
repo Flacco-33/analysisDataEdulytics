@@ -17,4 +17,4 @@ demo = gr.Interface(
     api_name="/combined_analysis"
 )
 if __name__ == "__main__":
-    demo.launch(server_port=7862)
+    demo.launch(server_port=7864,root_path="/analysis_data_edulytics")
